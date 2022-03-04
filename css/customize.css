@@ -1,0 +1,130 @@
+.customize{
+   background-color:  rgb(254, 255, 255);
+   opacity: 80%;
+}
+#custom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+}
+#list-choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:  rgb(254, 255, 255);
+    margin-left: 7rem;
+    margin-top: 8rem;
+    margin-bottom: 7rem;
+   
+}
+#pic--man{
+    background-color:  rgb(254, 255, 255);
+}
+.customize img{
+    background-color:  rgb(254, 255, 255);
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+#Cms{
+    width: 500px;
+    margin-bottom: 0.5em;
+    border-left:10px solid red;
+    border-right: rgb(185, 185, 185) solid;
+    border-top: rgb(185, 185, 185) solid;
+    border-bottom: rgb(185, 185, 185) solid;
+    border-radius: 20px 20px;
+    text-align: center;
+    background-color:  rgb(254, 255, 255);
+    margin-left: 0.5rem; 
+    transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+#Cms:hover{
+    transform: translateX(-5rem);
+}
+#pp3{
+    padding: 0.5em;
+    font-size: 20px;
+    background-color:  rgb(254, 255, 255);
+}
+#pp4{
+    padding: 0.5em;
+    font-size: 12px;
+    color: var(--secondary-color);
+    background-color:  rgb(254, 255, 255);
+}
+#pp5{
+    padding: 0.5em;
+    font-size: 12px;
+    color: var(--secondary-color);
+    background-color:  rgb(254, 255, 255);
+}
+#pye{
+    background-color:rgb(254, 255, 255);
+    width: 500px;
+    text-align: left;
+    margin: 0.5em;
+    border-left:10px solid blue;
+    border-right: rgb(185, 185, 185) solid;
+    border-top: rgb(185, 185, 185) solid;
+    border-bottom: rgb(185, 185, 185) solid;
+    border-radius: 20px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+#pye:hover{
+    transform: translateX(5rem);
+}
+#pp6{
+    padding: 0.5em;
+    font-size: 20px;
+    background-color:  rgb(254, 255, 255);
+}
+#pp7{
+    padding: 0.5em;
+    font-size: 12px;
+    color: var(--secondary-color);
+    background-color:  rgb(254, 255, 255);
+}
+#pp8{
+    padding: 0.5em;
+    font-size: 12px;
+    color: var(--secondary-color);
+    background-color:  rgb(254, 255, 255);
+}
+#store{
+    background-color:  rgb(254, 255, 255);
+    width: 500px;
+    text-align: left;
+    margin: 0.5em;
+    border-left:10px solid green;
+    border-right: rgb(185, 185, 185) solid;
+    border-top: rgb(185, 185, 185) solid;
+    border-bottom:  rgb(185, 185, 185)solid;
+    border-radius: 20px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+#store:hover{
+    transform: translateX(-5rem);
+}
+#pp9{
+    padding: 0.5em;
+    font-size: 20px;
+    background-color:  rgb(254, 255, 255);
+}
+#pp10{
+    padding: 0.5em;
+    font-size: 12px;
+    color: var(--secondary-color);
+    background-color:  rgb(254, 255, 255);
+}
+#pp11{
+    padding: 0.5em;
+    font-size: 12px;
+    color: var(--secondary-color);
+    background-color:  rgb(254, 255, 255);
+}

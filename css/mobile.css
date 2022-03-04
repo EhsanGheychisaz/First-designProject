@@ -1,0 +1,80 @@
+.mobile--app{
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.mobile-img{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-left: 7rem;
+    
+}
+#h44{
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin: 0.5em;
+    color: rgb(87, 86, 86)
+   
+}
+#h22{
+    font-size: 24px;
+    color: var(--dark-color);
+    margin: 0.5em;
+    
+}
+#pp{
+    font-size: 18px;
+    color: var(--secondary-color);
+    margin: 0.5em;
+
+}
+.featurs{
+    width: 500rem;
+    padding: 0.5em;
+    margin-right: 8rem;
+    margin-left: 2rem;
+    
+}
+.app{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+.app1{
+    width: 200px;
+    margin: 0.1rem;
+    border: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.app1:hover{
+    transform: translateY(1rem);
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: rgb(31, 27, 27) 0.5rem 0.5rem 0.5rem;
+}
+.app11{
+    width: 200px;
+    margin: 0.1rem;
+    border: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+.app11:hover{
+    transform: translateY(1rem);
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: rgb(31, 27, 27) 0.5rem 0.5rem 0.5rem;
+}
+

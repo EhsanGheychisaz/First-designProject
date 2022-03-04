@@ -1,0 +1,99 @@
+.featurs2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: auto;
+}
+.featurs2 img{
+    margin-top: 10rem;
+}
+#feat-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#feat-choose{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#choose1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 11rem;
+    border: double white 1rem 1rem 1rem 1rem;
+}
+#choose2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 18px;
+    border: double white 1rem 1rem 1rem 1rem;
+}
+#hh44{
+    font-size: 1.8rem;
+    color: rgb(87, 86, 86);
+    margin-bottom: 1rem;
+}
+#hh22{
+    margin-bottom: 1rem;
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+#sign_up{ 
+    margin-top: 5rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10rem;
+    margin-bottom: 0rem;
+    background-color: azure;
+    border-radius: 0px 50px 50px 0px;
+}
+#sign__u{
+    width: 400rem;
+    margin-left: 8rem;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: azure;
+}
+#sign-img{
+    margin-top: 3rem;
+    margin-right: 6rem;
+}
+#sign__u h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.8rem;
+    background-color: azure;
+}
+#sign__u p{
+    margin: 0.8rem;
+    font-size: 0.8rem;
+    background-color: azure;
+    color: rgb(71, 71, 71);
+}
+#sign__u button{
+    width: 55%;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin: 0.8rem;
+    background-color: rgb(103, 23, 114);
+    border-radius: 1rem 1rem 1rem 1rem;
+    transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+#sign__u button:hover{
+    background-color: white;
+    box-shadow: inset 10px 10px;
+}

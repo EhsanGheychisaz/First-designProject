@@ -1,0 +1,81 @@
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+#foot1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.foot h3{
+    font-size: 1.4rem;
+}
+.foot p{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgb(71, 71, 71);
+    transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+}
+.foot p:hover{
+    color:black;
+}
+#foot__logo{
+    margin: 2rem;
+}
+#foot-text1{
+    margin-bottom: 2rem;
+}
+#foot-text2{
+    margin-top: 1rem;
+}
+#foot-text3{
+    margin-top: 1rem;
+}
+#foot--sub{
+    position: relative;
+    right: 15px;
+    left: 3px;
+    height: 40px;
+    margin-right: 2rem;
+    width: 220px;
+}
+#foot--button{
+    position: absolute;
+    width: 90px;
+    height: 30px;
+    right: 73px;
+    margin-top: 5px;
+    border-radius: 50px 50px 50px 50px;
+    background-color: var(--primary-color);
+    transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+}
+#foot--button:hover{
+    background-color: white;
+    box-shadow: inset 10px 10px 10px black;
+}
+#foot__lgo{
+    background-color: rgb(245, 107, 16);
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.4rem;
+    text-align: center;
+    padding-top: 0.4rem;
+    border-radius: 100px 100px 100px 100px;
+    transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
+#foot__lgo:hover{
+    background-color: black;
+    transform: translateY(-1rem);
+}
+#foot-text4{
+    margin-top: 1rem;
+}
