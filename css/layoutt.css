@@ -1,31 +1,32 @@
-
-*{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: whitesmoke;
-    padding: 0px;
-    margin: 0px;
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: whitesmoke;
+  padding: 0px;
+  margin: 0px;
 }
-:root{
-    --primary-color: #422e8d;
+:root {
+  --primary-color: #422e8d;
   --dark-color: #0b0031;
   --accent-color: #ff9500;
   --light-color: #f7f7f7;
   --secondary-color: #464444;
 }
-head{
-    scroll-behavior: smooth;
+head {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-weight: normal;
-    background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f2f2 75%);
-    overflow-x: hidden;
+body {
+  margin-top: 1rem;
+  padding: auto;
+  font-weight: normal;
+  background: linear-gradient(141deg, #fff 0%, #f7f7f7 51%, #f2f2f2 75%);
+  overflow-x: hidden;
 }
 
-ul{
-    list-style:none;
-    color: wheat;
+ul {
+  list-style: none;
+  color: wheat;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
