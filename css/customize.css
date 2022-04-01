@@ -37,12 +37,10 @@
     text-align: center;
     background-color:  rgb(254, 255, 255);
     margin-left: 0.5rem; 
-    transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
+    transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
 }
-#Cms:hover{
-    transform: translateX(-5rem);
-}
+
 #pp3{
     padding: 0.5em;
     font-size: 20px;
@@ -71,12 +69,10 @@
     border-bottom: rgb(185, 185, 185) solid;
     border-radius: 20px 20px;
     text-align: center;
-    transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
+    transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
 }
-#pye:hover{
-    transform: translateX(5rem);
-}
+
 #pp6{
     padding: 0.5em;
     font-size: 20px;
@@ -105,12 +101,10 @@
     border-bottom:  rgb(185, 185, 185)solid;
     border-radius: 20px 20px;
     text-align: center;
-    transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
+    transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
 }
-#store:hover{
-    transform: translateX(-5rem);
-}
+
 #pp9{
     padding: 0.5em;
     font-size: 20px;
@@ -128,3 +122,43 @@
     color: var(--secondary-color);
     background-color:  rgb(254, 255, 255);
 }
+@media screen and (max-width: 1100px) {
+    #pic--man img {
+      width: 300px;
+      height: 400px;
+      position: absolute;
+      padding-top: 10%;
+      left: 0;
+    }
+    #pic--man {
+      width: 35%;
+    }
+    #store,
+    #pye,
+    #Cms {
+      width: 115%;
+      margin-left: 1%;
+      margin-right: 10%;
+    }
+    #store:hover{
+        background-color: green;
+    }
+    #pye:hover{
+        background-color: blue;
+    }
+    #Cms:hover{
+        background-color: red;
+    }
+  }
+  @media screen and (min-width: 1100px){
+    #store:hover{
+        transform: translateX(-2.5rem);
+    }
+    #pye:hover{
+        transform: translateX(2.5rem);
+    }
+    #Cms:hover{
+        transform: translateX(-2.5rem);
+    }
+  }
+  
