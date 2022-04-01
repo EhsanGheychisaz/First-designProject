@@ -50,7 +50,7 @@
     position: absolute;
     width: 90px;
     height: 30px;
-    right: 73px;
+    right: 82px;
     margin-top: 5px;
     border-radius: 50px 50px 50px 50px;
     background-color: var(--primary-color);
@@ -69,13 +69,44 @@
     text-align: center;
     padding-top: 0.4rem;
     border-radius: 100px 100px 100px 100px;
-    transition: all 0.4s ease;
-  -webkit-transition: all 0.4s ease;
+    transition: all 0.9s ease;
+  -webkit-transition: all 0.9s ease;
 }
-#foot__lgo:hover{
-    background-color: black;
-    transform: translateY(-1rem);
+#foot__lgo:hover {
+    transform: rotate(360deg);
+    background-color: snow;
 }
 #foot-text4{
     margin-top: 1rem;
 }
+@media only screen and (max-width: 1100px) {
+    #foot__logo {
+      margin: 0.2%;
+      width: 9%;
+      height: 10%;
+    }
+    #foot__logo-4 {
+      visibility: hidden;
+    }
+    #foot-text1 {
+      font-size: 2%;
+    }
+    #foot-text2 {
+      margin-left: 1%;
+      margin-right: 1%;
+    }
+    .foot {
+      width: 100%;
+    }
+    .foot1 {
+      width: 100%;
+    }
+    #foot-text4 {
+      position: absolute;
+      visibility: hidden;
+    }
+    .foot h3 {
+      font-size: 80%;
+    }
+  }
+  
