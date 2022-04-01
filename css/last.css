@@ -97,3 +97,25 @@
     background-color: white;
     box-shadow: inset 10px 10px;
 }
+@media only screen and (max-width: 1100px) {
+    .featurs2 {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+    .sign-up {
+      margin-bottom: 10%;
+      width: 110%;
+    }
+    #sign__u {
+      margin-left: 10%;
+      font-size: 70%;
+    }
+    #sign__u p {
+      font-size: 70%;
+    }
+    #sign__u button {
+      font-size: 80%;
+    }
+  }
+  
